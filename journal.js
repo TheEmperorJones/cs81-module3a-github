@@ -23,3 +23,6 @@ function power(base, exponent) {
     return base * power(base, exponent - 1);
   }
 }
+
+// A very concise function value using an arrow function
+let h = a => a % 3;
